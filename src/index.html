@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html data-theme="synthwave" lang="en">
+  <head>
+    <title>My app</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.0.3/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            sans: ['Sometype Mono', 'monospace'],
+          },
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="p-2">
+    <app-root>Loading...</app-root>
+  </body>
+</html>
